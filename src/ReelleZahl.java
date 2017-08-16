@@ -23,5 +23,9 @@ public class ReelleZahl extends Zahl implements Comparable {
 		ReelleZahl temp = (ReelleZahl) zahl;
 		return new ReelleZahl(this.value - temp.value);
 	}
+	
+	public String toString() {
+		return "" + value;
+	}
 
 }
